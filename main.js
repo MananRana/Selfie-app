@@ -45,11 +45,12 @@ function take_snapshot(){
 
     });
 
-    function save(){
-        link=document.getElementById("link");
-        image=document.getElementById("selfie_image").src;
-        link.href=image;
-        link.click();
+    
+}
+function save(){
+    link=document.getElementById("link");
+    image=document.getElementById("selfie_image").src;
+    link.href=image;
+    link.click();
 
-    }
 }
